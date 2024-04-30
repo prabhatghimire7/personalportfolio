@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Prabhat Ghimire</title>
+    <title>Prabhat Ghimire | IT Student From Nepal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -45,6 +46,15 @@
                 height: auto;
             }
         }
+        /* Adjust image size for larger screens */
+        @media (min-width: 768px) {
+            .img-fluid {
+                max-width: 100%;
+                height: auto;
+                max-height: 300px; /* Adjust as needed */
+                margin-top: -20px; /* Adjust to move the image further above */
+            }
+        }
     </style>
 </head>
 
@@ -68,8 +78,6 @@
                     <div class="typed-text d-none">Web Designer, Digital Marketer</div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="cv/PrabhatGhimirecv.pdf" download class="btn btn-primary py-3 px-4 me-5">Download CV</a>
-            
-
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://youtu.be/6th3YCV9ggYY" data-bs-target="#videoModal">
                             <span></span>
@@ -78,7 +86,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/pp1.png" height="500px" width="500px">
+                    <img class="img-fluid" src="img/pp1.png">
                 </div>
             </div>
         </div>
